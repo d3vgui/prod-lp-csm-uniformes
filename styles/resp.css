@@ -1,0 +1,155 @@
+@media (max-width: 1199px) {
+  /* SECTION ONE */
+
+  #section-one .left-content h2 {
+    font-size: 35px;
+  }
+
+  /* SECTION SEVEN */
+
+  #section-seven .left-content img {
+    height: 330px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* SECTION TWO */
+
+  #section-two {
+    padding: 40px 0;
+  }
+
+  #section-two .content-sec-two {
+    flex-direction: column-reverse;
+  }
+
+  #section-two .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION THREE */
+
+  #section-three {
+    padding: 40px 0;
+  }
+
+  #section-three .swiper-slide {
+    padding: 25px;
+  }
+
+  #section-three .swiper-slide .btn-contact-us {
+    margin-top: 40px;
+  }
+
+  #section-three .swiper-slide .img-slide {
+    height: 200px;
+  }
+
+  /* SECTION FOUR */
+
+  #section-four {
+    padding: 40px 0;
+  }
+
+  #section-four .right-content {
+    margin-top: 40px;
+  }
+
+  /* SECTION FIVE */
+
+  #section-five {
+    padding: 40px 0;
+  }
+
+  #section-five .right-content{
+    margin-top: 45px;
+  }
+
+  /* SECTION SIX */
+
+  #section-six {
+    padding: 40px 0;
+  }
+
+  /* SECTION SEVEN */
+
+  #section-seven {
+    padding: 40px 0;
+  }
+
+  #section-seven .content-sec-seven {
+    flex-direction: column-reverse;
+  }
+
+  #section-seven .left-content {
+    margin-top: 45px;
+  }
+
+  #section-seven .right-content h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #section-one .left-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #section-one .left-content p {
+    margin-top: 10px;
+  }
+
+  #section-one .btn-contact-us {
+    margin-top: 20px;
+  }
+
+  /* SECTION TWO */
+
+  #section-two .left-content img {
+    height: 350px;
+  }
+
+  /* SECTION THREE */
+
+  #section-three .swiper-slide .img-slide {
+    height: 190px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* SECTION TWO */
+
+  #section-two .left-content img {
+    height: 240px;
+    object-fit: cover;
+  }
+
+  /* SECTION THREE */
+
+  #section-three .swiper-slide {
+    width: 100%;
+  }
+
+  #section-three .swiper-slide .img-slide img {
+    height: 130px;
+  }
+
+  /* SECTION FIVE */
+
+  #section-five .right-content iframe{
+    width: 90vw;
+  }
+}
+
+@media (max-width: 426px) {
+  #section-six .swiper-slide {
+    padding: 25px;
+  }
+
+  #section-six .swiper-slide .text {
+    height: 220px;
+  }
+}
