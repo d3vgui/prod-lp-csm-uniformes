@@ -142,6 +142,12 @@
   #section-five .right-content iframe{
     width: 90vw;
   }
+
+  /* SECTION SEVEN */
+
+  #section-seven .right-content form{
+    width: 90vw;
+  }
 }
 
 @media (max-width: 426px) {
